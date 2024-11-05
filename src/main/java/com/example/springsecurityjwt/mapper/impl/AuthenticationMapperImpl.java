@@ -2,14 +2,12 @@ package com.example.springsecurityjwt.mapper.impl;
 
 import com.example.springsecurityjwt.entity.User;
 import com.example.springsecurityjwt.mapper.AuthenticationMapper;
-import com.example.springsecurityjwt.mapper.UserMapper;
 import com.example.springsecurityjwt.payload.authentication.AuthenticationResponsePayload;
 import com.example.springsecurityjwt.payload.authentication.RegisterRequestPayload;
 import com.example.springsecurityjwt.security.JwtService;
 import com.example.springsecurityjwt.security.mapper.UserDetailsMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
