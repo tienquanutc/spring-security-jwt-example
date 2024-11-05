@@ -33,7 +33,7 @@ jobs:
 
       # Build project with Gradle
       - name: Build with Gradle
-        run: ./gradlew build
+        run: ./gradlew bootJar
 
       # Log in to Docker Hub
       - name: Log in to Docker Hub
